@@ -1,10 +1,13 @@
+https://img.shields.io/github/repo-size/ayushjain-10/Date_Lib?style=for-the-badge
+https://img.shields.io/npm/v/@ayush_10/date_lib?style=for-the-badge
+
 # Date Library
 
 The goal of this library is to create a JavaScript Library of Date functions.
 
 **NPM Package** 
 
-https://www.npmjs.com/package/@ayush_10/string_lib
+https://www.npmjs.com/package/@ayush_10/date_lib
 
 **Description e** 
 
