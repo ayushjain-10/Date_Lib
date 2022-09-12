@@ -1,5 +1,5 @@
-https://img.shields.io/github/repo-size/ayushjain-10/Date_Lib?style=for-the-badge
-https://img.shields.io/npm/v/@ayush_10/date_lib?style=for-the-badge
+![GitHub repo size](https://img.shields.io/github/repo-size/ayushjain-10/Date_Lib?style=for-the-badge)
+![npm](https://img.shields.io/npm/v/@ayush_10/date_lib?style=for-the-badge)
 
 # Date Library
 
