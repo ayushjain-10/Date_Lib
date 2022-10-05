@@ -6,7 +6,8 @@ const daysShort = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
 class D {
     _date: Date
     constructor(...args: number[]) {
-        this._date = new Date (args[0], args[1], args[2], args[3], args[4], args[5])
+        // @ts-ignore: Unreachable code error
+        this._date = new Date (...args)
     }
 
     /**
@@ -166,14 +167,14 @@ class D {
      * @returns {String} 'return a statement that indicates how many days, months, or years are from now on or ago. 
      */
      when(): string {
-        const now: Date = new Date()
+        const now:Date = new Date()
         const comparedDate: Date = new Date(this._date)
-        const ny : number = now.getFullYear()
-        const nm : number = now.getMonth()
-        const nd : number = now.getDate()
-        const cy : number = comparedDate.getFullYear()
-        const cm : number = comparedDate.getMonth()
-        const cd : number = comparedDate.getDate()
+        const ny: number = now.getFullYear()
+        const nm: number = now.getMonth()
+        const nd: number = now.getDate()
+        const cy: number = comparedDate.getFullYear()
+        const cm: number = comparedDate.getMonth()
+        const cd: number = comparedDate.getDate()
 
         if (ny === cy) {
             if (cm > nm) { // sep - jan
